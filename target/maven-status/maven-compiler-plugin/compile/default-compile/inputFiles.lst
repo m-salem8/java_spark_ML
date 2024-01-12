@@ -1,4 +1,3 @@
-/home/m-salem/java_spark/src/main/java/Ml.java
-/home/m-salem/java_spark/src/main/java/penguins.java
-/home/m-salem/java_spark/src/main/java/rdd.java
-/home/m-salem/java_spark/src/main/java/titanic.java
+/home/m-salem/java_spark_ml/src/main/java/RddToDataFrameConvertor.java
+/home/m-salem/java_spark_ml/src/main/java/ml.java
+/home/m-salem/java_spark_ml/src/main/java/ML_pipeline.java
