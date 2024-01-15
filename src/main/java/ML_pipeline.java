@@ -58,7 +58,7 @@ public class ML_pipeline {
         System.out.println(Arrays.toString(colNames)); */
 
      
-
+        // Seperating column names from col ("medv") which will be predicted by the ML model
         String[] colNames = df.columns();
         ArrayList<String> assembledCols = new ArrayList<>();
 
@@ -72,6 +72,7 @@ public class ML_pipeline {
             colsToAssembly[i] = assembledCols.get(i);
         }
 
+        // Renaminng "medv" col with "label"
         df = df.withColumnRenamed("medv", "label");
         
 
